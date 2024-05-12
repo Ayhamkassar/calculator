@@ -13,7 +13,6 @@ namespace the_real_calculator
 {
     public partial class Form1 : Form
     {
-      
         double result = 0;
         string Operator = "";
         bool isOperator = false;
@@ -21,10 +20,9 @@ namespace the_real_calculator
         {
             InitializeComponent();
         }
-
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
         //==============monitor==============
         private void text1_KeyPress(object sender, KeyPressEventArgs e)
@@ -66,12 +64,9 @@ namespace the_real_calculator
             text1.SelectionLength = 0;
             text1.Focus();
             e.Handled = true;
-
         }
-
         private void text1_TextChanged(object sender, EventArgs e)
         {
-            
         }
         // ==============Delete Buttons==============
         private void DELETE_Click(object sender, EventArgs e)
@@ -85,13 +80,11 @@ namespace the_real_calculator
                 text1.Text ="0";
             }
         }
-
         private void C_button_Click(object sender, EventArgs e)
         {
             text1.Text = "0";
             result = 0;
         }
-
         //==============Methods Buttons==============
         private void PLUS_Click(object sender, EventArgs e)
         {
@@ -112,7 +105,6 @@ namespace the_real_calculator
                 isOperator = true;
             }
         }
-
         private void EQUAL_Click(object sender, EventArgs e)
         {
             try
@@ -128,13 +120,11 @@ namespace the_real_calculator
                     case "*":
                         text1.Text = (result * double.Parse(text1.Text)).ToString();
                         break;
-
                     case "/":
                         double divisor = double.Parse(text1.Text);
                         if (divisor == 0)
                             throw new DivideByZeroException();
                         text1.Text = (result / divisor).ToString();
-
                         break;
                 }
             }
@@ -152,79 +142,10 @@ namespace the_real_calculator
 
         private void N1_Click(object sender, EventArgs e)
         {
-            if (text1.Text == "0" || isOperator)
-                text1.Clear();
-            text1.Text = text1.Text + "1";
-            isOperator = false;
-            text1.SelectionStart = text1.Text.Length; 
-            text1.SelectionLength = 0; 
-            isOperator = false;
+            Button a = (Button)(sender);
+            text1.Text += a.Text;
+            if (text1.Text[0] == '0') text1.Text = Numbers.Remove(text1.Text,0);
         }
-
-        private void N2_Click(object sender, EventArgs e)
-        {
-            if (text1.Text == "0" || isOperator)
-                text1.Clear();
-            isOperator = false;
-            text1.Text = text1.Text + "2";
-        }
-        private void N3_Click(object sender, EventArgs e)
-        {
-            if (text1.Text == "0" || isOperator)
-                text1.Clear();
-            isOperator = false;
-            text1.Text = text1.Text + "3";
-        }
-        private void N4_Click(object sender, EventArgs e)
-        {
-            if (text1.Text == "0" || isOperator)
-                text1.Clear();
-            isOperator = false;
-            text1.Text = text1.Text + "4";
-        }
-        private void N5_Click(object sender, EventArgs e)
-        {
-            if (text1.Text == "0" || isOperator)
-                text1.Clear();
-            isOperator = false;
-            text1.Text = text1.Text + "5";
-        }
-        private void N6_Click(object sender, EventArgs e)
-        {
-            if (text1.Text == "0" || isOperator)
-                text1.Clear();
-            isOperator = false;
-            text1.Text = text1.Text + "6";
-        }
-        private void N7_Click(object sender, EventArgs e)
-        {
-            if (text1.Text == "0" || isOperator)
-                text1.Clear();
-            isOperator = false;
-            text1.Text = text1.Text + "7";
-        }
-        private void N8_Click(object sender, EventArgs e)
-        {
-            if (text1.Text == "0" || isOperator)
-                text1.Clear();
-            isOperator = false;
-            text1.Text = text1.Text + "8";
-        }
-        private void N9_Click(object sender, EventArgs e)
-        {
-            if (text1.Text == "0" || isOperator)
-                text1.Clear();
-            isOperator = false;
-            text1.Text = text1.Text + "9";
-        }
-        private void N0_Click(object sender, EventArgs e)
-        {
-            if (text1.Text == "0" || isOperator)
-                text1.Clear();
-            isOperator = false;
-            text1.Text = text1.Text + "0";
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
 

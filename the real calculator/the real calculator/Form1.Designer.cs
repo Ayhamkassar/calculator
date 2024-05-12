@@ -53,10 +53,11 @@
             // 
             // text1
             // 
-            this.text1.Location = new System.Drawing.Point(0, 29);
+            this.text1.Location = new System.Drawing.Point(10, 27);
+            this.text1.Margin = new System.Windows.Forms.Padding(1);
             this.text1.Multiline = true;
             this.text1.Name = "text1";
-            this.text1.Size = new System.Drawing.Size(350, 82);
+            this.text1.Size = new System.Drawing.Size(344, 86);
             this.text1.TabIndex = 0;
             this.text1.Text = "0";
             this.text1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -65,7 +66,7 @@
             // 
             // N1
             // 
-            this.N1.Location = new System.Drawing.Point(0, 114);
+            this.N1.Location = new System.Drawing.Point(2, 114);
             this.N1.Margin = new System.Windows.Forms.Padding(0);
             this.N1.Name = "N1";
             this.N1.Size = new System.Drawing.Size(88, 50);
@@ -76,106 +77,106 @@
             // 
             // N2
             // 
-            this.N2.Location = new System.Drawing.Point(88, 114);
+            this.N2.Location = new System.Drawing.Point(90, 114);
             this.N2.Margin = new System.Windows.Forms.Padding(0);
             this.N2.Name = "N2";
             this.N2.Size = new System.Drawing.Size(88, 50);
             this.N2.TabIndex = 2;
             this.N2.Text = "2";
             this.N2.UseVisualStyleBackColor = true;
-            this.N2.Click += new System.EventHandler(this.N2_Click);
+            this.N2.Click += new System.EventHandler(this.N1_Click);
             // 
             // N3
             // 
-            this.N3.Location = new System.Drawing.Point(175, 114);
+            this.N3.Location = new System.Drawing.Point(178, 114);
             this.N3.Margin = new System.Windows.Forms.Padding(0);
             this.N3.Name = "N3";
             this.N3.Size = new System.Drawing.Size(88, 50);
             this.N3.TabIndex = 3;
             this.N3.Text = "3";
             this.N3.UseVisualStyleBackColor = true;
-            this.N3.Click += new System.EventHandler(this.N3_Click);
+            this.N3.Click += new System.EventHandler(this.N1_Click);
             // 
             // N4
             // 
-            this.N4.Location = new System.Drawing.Point(0, 164);
+            this.N4.Location = new System.Drawing.Point(2, 164);
             this.N4.Margin = new System.Windows.Forms.Padding(0);
             this.N4.Name = "N4";
             this.N4.Size = new System.Drawing.Size(88, 50);
             this.N4.TabIndex = 4;
             this.N4.Text = "4";
             this.N4.UseVisualStyleBackColor = true;
-            this.N4.Click += new System.EventHandler(this.N4_Click);
+            this.N4.Click += new System.EventHandler(this.N1_Click);
             // 
             // N5
             // 
-            this.N5.Location = new System.Drawing.Point(88, 164);
+            this.N5.Location = new System.Drawing.Point(90, 164);
             this.N5.Margin = new System.Windows.Forms.Padding(0);
             this.N5.Name = "N5";
             this.N5.Size = new System.Drawing.Size(88, 50);
             this.N5.TabIndex = 5;
             this.N5.Text = "5";
             this.N5.UseVisualStyleBackColor = true;
-            this.N5.Click += new System.EventHandler(this.N5_Click);
+            this.N5.Click += new System.EventHandler(this.N1_Click);
             // 
             // N6
             // 
-            this.N6.Location = new System.Drawing.Point(175, 164);
+            this.N6.Location = new System.Drawing.Point(178, 164);
             this.N6.Margin = new System.Windows.Forms.Padding(0);
             this.N6.Name = "N6";
             this.N6.Size = new System.Drawing.Size(88, 50);
             this.N6.TabIndex = 6;
             this.N6.Text = "6";
             this.N6.UseVisualStyleBackColor = true;
-            this.N6.Click += new System.EventHandler(this.N6_Click);
+            this.N6.Click += new System.EventHandler(this.N1_Click);
             // 
             // N7
             // 
-            this.N7.Location = new System.Drawing.Point(0, 214);
+            this.N7.Location = new System.Drawing.Point(2, 214);
             this.N7.Margin = new System.Windows.Forms.Padding(0);
             this.N7.Name = "N7";
             this.N7.Size = new System.Drawing.Size(88, 50);
             this.N7.TabIndex = 7;
             this.N7.Text = "7";
             this.N7.UseVisualStyleBackColor = true;
-            this.N7.Click += new System.EventHandler(this.N7_Click);
+            this.N7.Click += new System.EventHandler(this.N1_Click);
             // 
             // N8
             // 
-            this.N8.Location = new System.Drawing.Point(88, 214);
+            this.N8.Location = new System.Drawing.Point(90, 214);
             this.N8.Margin = new System.Windows.Forms.Padding(0);
             this.N8.Name = "N8";
             this.N8.Size = new System.Drawing.Size(88, 50);
             this.N8.TabIndex = 8;
             this.N8.Text = "8";
             this.N8.UseVisualStyleBackColor = true;
-            this.N8.Click += new System.EventHandler(this.N8_Click);
+            this.N8.Click += new System.EventHandler(this.N1_Click);
             // 
             // N9
             // 
-            this.N9.Location = new System.Drawing.Point(175, 214);
+            this.N9.Location = new System.Drawing.Point(178, 214);
             this.N9.Margin = new System.Windows.Forms.Padding(0);
             this.N9.Name = "N9";
             this.N9.Size = new System.Drawing.Size(88, 50);
             this.N9.TabIndex = 9;
             this.N9.Text = "9";
             this.N9.UseVisualStyleBackColor = true;
-            this.N9.Click += new System.EventHandler(this.N9_Click);
+            this.N9.Click += new System.EventHandler(this.N1_Click);
             // 
             // N0
             // 
-            this.N0.Location = new System.Drawing.Point(0, 264);
+            this.N0.Location = new System.Drawing.Point(2, 264);
             this.N0.Margin = new System.Windows.Forms.Padding(0);
             this.N0.Name = "N0";
             this.N0.Size = new System.Drawing.Size(88, 50);
             this.N0.TabIndex = 10;
             this.N0.Text = "0";
             this.N0.UseVisualStyleBackColor = true;
-            this.N0.Click += new System.EventHandler(this.N0_Click);
+            this.N0.Click += new System.EventHandler(this.N1_Click);
             // 
             // MULTI
             // 
-            this.MULTI.Location = new System.Drawing.Point(175, 264);
+            this.MULTI.Location = new System.Drawing.Point(178, 264);
             this.MULTI.Margin = new System.Windows.Forms.Padding(0);
             this.MULTI.Name = "MULTI";
             this.MULTI.Size = new System.Drawing.Size(88, 50);
@@ -186,7 +187,7 @@
             // 
             // MINUS
             // 
-            this.MINUS.Location = new System.Drawing.Point(262, 264);
+            this.MINUS.Location = new System.Drawing.Point(266, 264);
             this.MINUS.Margin = new System.Windows.Forms.Padding(0);
             this.MINUS.Name = "MINUS";
             this.MINUS.Size = new System.Drawing.Size(88, 50);
@@ -197,7 +198,7 @@
             // 
             // ON_BUTTON
             // 
-            this.ON_BUTTON.Location = new System.Drawing.Point(88, 264);
+            this.ON_BUTTON.Location = new System.Drawing.Point(90, 264);
             this.ON_BUTTON.Margin = new System.Windows.Forms.Padding(0);
             this.ON_BUTTON.Name = "ON_BUTTON";
             this.ON_BUTTON.Size = new System.Drawing.Size(88, 50);
@@ -208,7 +209,8 @@
             // 
             // EQUAL
             // 
-            this.EQUAL.Location = new System.Drawing.Point(88, 314);
+            this.EQUAL.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.EQUAL.Location = new System.Drawing.Point(92, 314);
             this.EQUAL.Margin = new System.Windows.Forms.Padding(0);
             this.EQUAL.Name = "EQUAL";
             this.EQUAL.Size = new System.Drawing.Size(262, 50);
@@ -221,7 +223,7 @@
             // 
             this.DELETE.AccessibleRole = System.Windows.Forms.AccessibleRole.Border;
             this.DELETE.ImageKey = "(none)";
-            this.DELETE.Location = new System.Drawing.Point(262, 114);
+            this.DELETE.Location = new System.Drawing.Point(266, 114);
             this.DELETE.Margin = new System.Windows.Forms.Padding(0);
             this.DELETE.Name = "DELETE";
             this.DELETE.Size = new System.Drawing.Size(88, 50);
@@ -232,7 +234,7 @@
             // 
             // C_button
             // 
-            this.C_button.Location = new System.Drawing.Point(262, 164);
+            this.C_button.Location = new System.Drawing.Point(266, 164);
             this.C_button.Margin = new System.Windows.Forms.Padding(0);
             this.C_button.Name = "C_button";
             this.C_button.Size = new System.Drawing.Size(88, 50);
@@ -243,7 +245,7 @@
             // 
             // PLUS
             // 
-            this.PLUS.Location = new System.Drawing.Point(262, 214);
+            this.PLUS.Location = new System.Drawing.Point(266, 214);
             this.PLUS.Margin = new System.Windows.Forms.Padding(0);
             this.PLUS.Name = "PLUS";
             this.PLUS.Size = new System.Drawing.Size(88, 50);
@@ -254,7 +256,7 @@
             // 
             // Point
             // 
-            this.Point.Location = new System.Drawing.Point(0, 314);
+            this.Point.Location = new System.Drawing.Point(2, 314);
             this.Point.Margin = new System.Windows.Forms.Padding(0);
             this.Point.Name = "Point";
             this.Point.Size = new System.Drawing.Size(88, 50);
@@ -275,6 +277,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(358, 368);
             this.Controls.Add(this.label);
             this.Controls.Add(this.Point);
